@@ -14,15 +14,7 @@ export default function ProductCard({ productdetails })
     const { showToast } = useToast()
     const {
         _id, 
-        bookName,
-        author,
-        originalPrice,
-        discountedPrice,
-        discountPercent,
-        imgSrc, 
-        imgAlt,
-        badgeText, 
-        outOfStock
+   
     } = productdetails
     const [wishlistHeartIcon, setWishlistHeartIcon] = useState("fa-heart-o")
     const [wishlistBtn, setWishlistBtn]             = useState("add-to-wishlist-btn")
